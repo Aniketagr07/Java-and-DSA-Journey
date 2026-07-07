@@ -1,0 +1,2 @@
+# Java-and-DSA-Journey
+A repository dedicated to my Java journey. Here you'll find Java fundamentals, OOP concepts, collections, exception handling, multithreading, file handling, DSA implementations, coding challenges, and mini projects. Consistently updated as I learn and build.
