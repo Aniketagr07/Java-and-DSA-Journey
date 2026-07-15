@@ -175,13 +175,27 @@ public class Pattern_printing_Advance_examples {
     public static void number_pyramid(int n){
         int a=1;
         for(int i=0;i<n;i++){
-            for(int j=1;j<n-i+1;j++){
+            for(int j=1;j<n-i;j++){
                 System.out.print("  ");
             }
             for(int j=0;j<=i;j++){
                 System.out.print(a+"   ");
             }
             a++;
+            System.out.println();
+        }
+    }
+    public static void palindromic_pattern(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=0;j<n-i;j++){
+                System.out.print("  ");
+            }
+            for(int j=i;j>0;j--){
+                System.out.print(j+" ");
+            }
+            for(int j=2;j<=i;j++){
+                System.out.print(j+" ");
+            }
             System.out.println();
         }
     }
@@ -203,6 +217,7 @@ public class Pattern_printing_Advance_examples {
        //butterfly_pattern(n, 2 * n);
        //hollow_rhombus(n);
        //diamond(n);
-        number_pyramid(n);
+        //number_pyramid(n);
+        palindromic_pattern(n);
     }
 }
